@@ -192,7 +192,7 @@ export default function Home() {
 
     const newConversation: Conversation = {
       id: lastConversation ? lastConversation.id + 1 : 1,
-      name: `Conversation ${lastConversation ? lastConversation.id + 1 : 1}`,
+      name: `聊天室 ${lastConversation ? lastConversation.id + 1 : 1}`,
       messages: [],
       model: OpenAIModels[OpenAIModelID.GPT_3_5]
     };
@@ -304,7 +304,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>Chat Bot</title>
         <meta
           name="description"
           content="ChatGPT but better."
