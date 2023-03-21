@@ -69,23 +69,11 @@ export const Chat: FC<Props> = ({
                   />
                 </div>
 
-<<<<<<< HEAD
                 <div className="text-4xl text-center text-neutral-600 dark:text-neutral-200 pt-[160px] sm:pt-[280px]">{models.length === 0 ? "Loading..." : "Chat Bot"}</div>
               </>
             ) : (
               <>
                 <div className="flex justify-center py-2 text-neutral-500 bg-neutral-100 dark:bg-[#444654] dark:text-neutral-200 text-sm border border-b-neutral-300 dark:border-none">模型: {conversation.model.name}</div>
-=======
-                <div className="text-4xl text-center text-neutral-600 dark:text-neutral-200 pt-[160px] sm:pt-[280px]">
-                  {models.length === 0 ? "Loading..." : "Chatbot UI"}
-                </div>
-              </>
-            ) : (
-              <>
-                <div className="flex justify-center py-2 text-neutral-500 bg-neutral-100 dark:bg-[#444654] dark:text-neutral-200 text-sm border border-b-neutral-300 dark:border-none">
-                  Model: {conversation.model.name}
-                </div>
->>>>>>> 42ed1cc5a3603f3e977cb099d73052981d087e70
 
                 {conversation.messages.map((message, index) => (
                   <ChatMessage
