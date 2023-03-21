@@ -223,7 +223,7 @@ export default function Home() {
     } else {
       setSelectedConversation({
         id: 1,
-        name: "New conversation",
+        name: "新的聊天",
         messages: [],
         model: OpenAIModels[OpenAIModelID.GPT_3_5]
       });
@@ -293,7 +293,7 @@ export default function Home() {
     } else {
       setSelectedConversation({
         id: 1,
-        name: "New conversation",
+        name: "新的聊天",
         messages: [],
         model: OpenAIModels[OpenAIModelID.GPT_3_5]
       });
