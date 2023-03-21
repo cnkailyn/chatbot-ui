@@ -20,7 +20,7 @@ export const Search: FC<Props> = ({ searchTerm, onSearch }) => {
       <input
         className="flex-1 pr-10 bg-[#202123] border border-neutral-600 text-sm rounded-lg px-4 py-2 text-white"
         type="text"
-        placeholder="Search conversations..."
+        placeholder="搜索聊天..."
         value={searchTerm}
         onChange={handleSearchChange}
       />
