@@ -84,7 +84,7 @@ export const ChatInput: FC<Props> = ({ onSend, messageIsStreaming }) => {
       />
 
       <button
-        className="absolute right-5 bottom-[18px] focus:outline-none text-neutral-800 hover:text-neutral-900 dark:text-neutral-100 dark:hover:text-neutral-200 dark:bg-opacity-50 hover:bg-neutral-200 p-1 rounded-sm"
+        className="absolute right-10 bottom-[18px] focus:outline-none text-neutral-800 hover:text-neutral-900 dark:text-neutral-100 dark:hover:text-neutral-200 dark:bg-opacity-50 hover:bg-neutral-200 p-1 rounded-sm"
         onClick={handleSend}
       >
         <IconSend size={18} />

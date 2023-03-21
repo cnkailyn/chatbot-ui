@@ -269,6 +269,7 @@ export default function Home() {
     }
 
     const apiKey = localStorage.getItem("apiKey") || "";
+
     if (apiKey) {
       setApiKey(apiKey);
     }

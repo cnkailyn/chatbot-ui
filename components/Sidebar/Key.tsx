@@ -58,7 +58,7 @@ export const Key: FC<Props> = ({ apiKey, onApiKeyChange }) => {
     </div>
   ) : (
     <SidebarButton
-      text="API配置"
+      text="Key配置"
       icon={<IconKey size={16} />}
       onClick={() => setIsChanging(true)}
     />
